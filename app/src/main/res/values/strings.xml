@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DemoAndroidMVP</string>
+    <string name="title_activity_login">Demo Android MVP</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="profile">Perfil</string>
+</resources>
