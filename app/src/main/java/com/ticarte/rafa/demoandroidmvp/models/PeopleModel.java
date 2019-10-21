@@ -1,4 +1,4 @@
-package com.ticarte.rafa.demoandroidmvp.model;
+package com.ticarte.rafa.demoandroidmvp.models;
 
 import android.util.Log;
 

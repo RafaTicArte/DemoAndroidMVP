@@ -1,10 +1,9 @@
-package com.ticarte.rafa.demoandroidmvp.presenter;
+package com.ticarte.rafa.demoandroidmvp.presenters;
 
-import android.app.Activity;
 import android.util.Log;
 
 import com.ticarte.rafa.demoandroidmvp.interfaces.LoginInterface;
-import com.ticarte.rafa.demoandroidmvp.model.PeopleModel;
+import com.ticarte.rafa.demoandroidmvp.models.PeopleModel;
 
 public class LoginPresenter implements LoginInterface.Presenter {
 

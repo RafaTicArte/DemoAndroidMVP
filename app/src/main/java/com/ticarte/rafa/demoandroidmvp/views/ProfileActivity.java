@@ -1,12 +1,8 @@
-package com.ticarte.rafa.demoandroidmvp.view;
+package com.ticarte.rafa.demoandroidmvp.views;
 
 import android.content.Context;
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
@@ -16,8 +12,8 @@ import android.widget.TextView;
 
 import com.ticarte.rafa.demoandroidmvp.R;
 import com.ticarte.rafa.demoandroidmvp.interfaces.ProfileInterface;
-import com.ticarte.rafa.demoandroidmvp.model.Person;
-import com.ticarte.rafa.demoandroidmvp.presenter.ProfilePresenter;
+import com.ticarte.rafa.demoandroidmvp.models.Person;
+import com.ticarte.rafa.demoandroidmvp.presenters.ProfilePresenter;
 
 public class ProfileActivity extends AppCompatActivity implements ProfileInterface.View {
 

@@ -1,10 +1,10 @@
-package com.ticarte.rafa.demoandroidmvp.presenter;
+package com.ticarte.rafa.demoandroidmvp.presenters;
 
 import android.util.Log;
 
 import com.ticarte.rafa.demoandroidmvp.interfaces.ProfileInterface;
-import com.ticarte.rafa.demoandroidmvp.model.PeopleModel;
-import com.ticarte.rafa.demoandroidmvp.model.Person;
+import com.ticarte.rafa.demoandroidmvp.models.PeopleModel;
+import com.ticarte.rafa.demoandroidmvp.models.Person;
 
 public class ProfilePresenter implements ProfileInterface.Presenter {
 

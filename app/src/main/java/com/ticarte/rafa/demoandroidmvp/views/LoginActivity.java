@@ -1,12 +1,8 @@
-package com.ticarte.rafa.demoandroidmvp.view;
+package com.ticarte.rafa.demoandroidmvp.views;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -20,7 +16,7 @@ import android.widget.TextView;
 
 import com.ticarte.rafa.demoandroidmvp.R;
 import com.ticarte.rafa.demoandroidmvp.interfaces.LoginInterface;
-import com.ticarte.rafa.demoandroidmvp.presenter.LoginPresenter;
+import com.ticarte.rafa.demoandroidmvp.presenters.LoginPresenter;
 
 public class LoginActivity extends AppCompatActivity implements LoginInterface.View {
 
@@ -40,7 +36,7 @@ public class LoginActivity extends AppCompatActivity implements LoginInterface.V
         // Carga el layout
         setContentView(R.layout.activity_login);
 
-        // Carga la barra de tareas
+        // Carga la barra de tareaso
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
